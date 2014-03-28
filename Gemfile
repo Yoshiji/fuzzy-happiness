@@ -45,3 +45,9 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'haml-rails'
+
+group :development, :test do
+  gem 'minitest-rails'
+  gem 'minitest-reporters'
+  gem 'guard-minitest'
+end
